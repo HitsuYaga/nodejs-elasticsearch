@@ -1,7 +1,7 @@
 const elasticsearch = require('elasticsearch');
 
 const client = new elasticsearch.Client({
-  host: '221.132.29.49:9200'
+  host: 'IP:PORT'
 });
 
 module.exports = {
